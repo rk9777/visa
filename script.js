@@ -5,18 +5,18 @@ function startQuestions() {
   function answerYes() {
     document.getElementById("questions").style.display = "none";
       document.getElementById("que").style.display = "none";
-      document.getElementById("init").innerText = "YEY YEY 🎉🎉🎉";
+      document.getElementById("init").innerText = "OO BLE BLE MJEE AA GYE 🎉🎉🎉";
     document.getElementById("message").style.display = "block";
-    document.getElementById("messageText").innerText = "I believe in love at first sight too! How about we go on a date and see if it's true?";
+    document.getElementById("messageText").innerText = "Bnana to kuch or tha per vo kaam nhi kiya to esse kaam chala lo or photo jaldi bhejna";
     showConfetti()
 }
   
   function answerNo() {
     document.getElementById("questions").style.display = "none";
     document.getElementById("que").style.display = "none";
-    document.getElementById("init").innerText = "YEY YEY 🎉🎉🎉";
+    document.getElementById("init").innerText = " Taras nhi ata humpe ";
     document.getElementById("message").style.display = "block";
-    document.getElementById("messageText").innerText = "No worries, love takes time. But can we spend some time together and see if something beautiful blossoms?";
+    document.getElementById("messageText").innerText = "KOI NA HUM KONSA JINE DEGE APKO BINA PHOTO KE?";
     showConfetti()
 
 }
