@@ -5,18 +5,18 @@ function startQuestions() {
   function answerYes() {
     document.getElementById("questions").style.display = "none";
       document.getElementById("que").style.display = "none";
-      document.getElementById("init").innerText = "YEY YEY 🎉🎉🎉";
+      document.getElementById("init").innerText = "YEY YEY ble ble🎉🎉🎉";
     document.getElementById("message").style.display = "block";
-    document.getElementById("messageText").innerText = "I believe in love at first sight too! How about we go on a date and see if it's true?";
+    document.getElementById("messageText").innerText = "TO AB PURA APKA MADAM JI BTAYE KYA KRE APKE LYE ";
     showConfetti()
 }
   
   function answerNo() {
     document.getElementById("questions").style.display = "none";
     document.getElementById("que").style.display = "none";
-    document.getElementById("init").innerText = "YEY YEY 🎉🎉🎉";
+    document.getElementById("init").innerText = " BAS ITNA HI PYAR THA HUM SE";
     document.getElementById("message").style.display = "block";
-    document.getElementById("messageText").innerText = "No worries, love takes time. But can we spend some time together and see if something beautiful blossoms?";
+    document.getElementById("messageText").innerText = "KOI NA HMARA BHI DIN AYEGA?";
     showConfetti()
 
 }
